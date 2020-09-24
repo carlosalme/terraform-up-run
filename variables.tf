@@ -1,5 +1,15 @@
+variable "aws_region" {
+  type  = string
+}
+variable "aws_ami" {
+  type  = string
+}
+variable "aws_instatype" {
+  type  = string
+}
+
 variable "server_port" {
-  description = "The port the server will use for http request"
-  default = 8080
+  type  = number
+  
 }
 
